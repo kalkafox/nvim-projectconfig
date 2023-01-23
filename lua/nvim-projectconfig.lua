@@ -3,7 +3,7 @@ local M = {}
 local config = {
     silent = true,
     autocmd = true,
-    project_dir = '~/.config/nvim/projects/',
+    project_dir = project_dir = vim.fn.stdpath('config') .. '/projects/',
     project_config = {},
 }
 
